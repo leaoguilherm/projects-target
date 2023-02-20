@@ -48,7 +48,7 @@
                 <td>1976</td>
             </tr>
             <tr>
-                <td><img src="imagens/carro3.png"Foto da viatura"></td>
+                <td><img src="imagens/carro3.png" Foto da viatura"></td>
                 <td>Premier</td>
                 <td>Ford</td>
                 <td>1981</td>
@@ -66,11 +66,14 @@
 
 
     <button>
-    <a href="index.html">
-        <img src="imagens/voltar.png" alt="Botão Voltar">
-    </a>
+        <a href="index.html">
+            <img class="imgbotaovoltar" src="imagens/voltar.png" alt="Botão Voltar">
+        </a>
     </button>
 
+    <div class="rodape">
+        <p>Desenvolvido por: Leão tech.</p>
+    </div>
 </body>
 
 </html>
@@ -89,7 +92,8 @@
         border: 1px solid;
     }
 
-    img {
+    img,
+    td {
         width: 150px;
         height: auto
     }
@@ -121,5 +125,16 @@
         background-color: rgb(223, 223, 223);
         border-radius: 10px;
         border-style: double;
+    }
+
+    .imgbotaovoltar {
+        width: 50px;
+        height: auto;
+    }
+
+    .rodape {
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(50, 90, 92);
     }
 </style>
