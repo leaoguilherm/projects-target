@@ -9,9 +9,16 @@
 </head>
 
 <body>
-    <div class="titulo">
+    <div class="cabecalho">
         <h1>Estádio Beira-Rio</h1>
     </div>
+
+    <div class="titulo">
+        <img class="imagemgmail" src="imagens/logogmail.png" alt="Imagem do Gmail">
+        <h1>Contato e localização</h1>
+    </div>
+
+    <hr>
 
     <iframe class="mapabeirario"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1726.5014815908112!2d-51.237919963896296!3d-30.065449547091394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519789308dc5dbb%3A0x4140aceb991dc95!2sEst%C3%A1dio%20Beira-Rio!5e0!3m2!1spt-BR!2sbr!4v1676848368624!5m2!1spt-BR!2sbr">
@@ -51,15 +58,26 @@
 <style>
     body {
         margin: 0px;
-        background-color: brown;
         text-align: center;
     }
 
 
-    .titulo {
-        color: antiquewhite;
+    .cabecalho {
+        color: rgb(255, 255, 255);
         text-align: center;
         background-color: red;
+    }
+
+    .imagemgmail {
+        width: 50px;
+        height: auto;
+    }
+
+    .titulo {
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        color: rgb(0, 0, 0);
     }
 
     .mapabeirario {
@@ -76,6 +94,6 @@
     }
 
     p {
-        color: aliceblue;
+        color: rgb(0, 0, 0);
     }
 </style>
