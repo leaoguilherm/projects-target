@@ -15,32 +15,32 @@
 
     <hr>
 
-    <button class="botaocurriculo">
+    <button class="btncurriculo">
         <a href="curriculo.html">Currículo</a>
     </button>
 
     <br>
     <br>
 
-    <button class="botaoveiculos">
+    <button class="btnveiculos">
         <a href="veiculos.html">Loja de veículos</a>
     </button>
 
     <br>
     <br>
 
-    <button class="botaoformulariomaps">
+    <button class="btnformulariomaps">
         <a href="formulario.html">Formulário & Mapa</a>
     </button>
 
-    <button class="buttonwebhook">
+    <button class="btnwebhook">
         <a href="https://webhook.site/#!/7908eb3d-5726-4d2e-bca7-735bfffdf1fe" target="_blank">Webhook</a>
     </button>
 
     <br>
     <br>
 
-    <button class="formulariocss">
+    <button class="btnformulariocss">
         <a href="exercicioscss/formulariocss.html">Cadastro de Produtos CSS</a>
     </button>
 </body>
@@ -48,6 +48,13 @@
 </html>
 
 <style>
+    body {
+        background-color: white;
+        background-image: url(imagens/fundoindex.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
     .cabecalho {
         background-color: brown;
         font-family: Arial, Helvetica, sans-serif;
@@ -56,7 +63,19 @@
         border-radius: 15px;
     }
 
-    .botaocurriculo {
+    a {
+        color: rgb(0, 0, 0);
+    }
+
+    .btncurriculo {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        border-style: double;
+        border-color: black;
+        font-weight: bold;
+    }
+
+    .btnveiculos {
         font-size: 25px;
         color: black;
         border-style: double;
@@ -64,7 +83,7 @@
         font-weight: bold;
     }
 
-    .botaoveiculos {
+    .btnformulariomaps {
         font-size: 25px;
         color: black;
         border-style: double;
@@ -72,15 +91,7 @@
         font-weight: bold;
     }
 
-    .botaoformulariomaps {
-        font-size: 25px;
-        color: black;
-        border-style: double;
-        border-color: black;
-        font-weight: bold;
-    }
-
-    .buttonwebhook {
+    .btnwebhook {
         font-size: 15px;
         color: black;
         border-style: double;
@@ -88,12 +99,12 @@
         font-weight: bold;
     }
 
-    .formulariocss {
+    button {
         font-family: 'Courier New', Courier, monospace;
         align-self: center;
         border-radius: 20px;
         padding: 6px 15px 10px 15px;
-        background: rgb(168, 151, 151);
+        background: rgb(199, 199, 199);
         color: rgb(214, 211, 211);
         transition: 0.5s;
         cursor: pointer;
@@ -102,7 +113,7 @@
         font-weight: bold;
     }
 
-    .formulariocss:hover {
+    button:hover {
         background: rgb(214, 211, 211);
         color: black;
         position: relative;
