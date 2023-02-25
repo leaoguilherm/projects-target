@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(197, 197, 197);
+}
+
+img {
+    width: 60px;
+    height: auto;
+    float: left;
+}
+
+h1 {
+    color: rgb(117, 18, 18);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    align-self: center;
+    border-radius: 20px;
+    padding: 6px 15px 10px 15px;
+    background: rgb(117, 18, 18);
+    color: rgb(214, 211, 211);
+    font-weight: 900;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(214, 211, 211);
+    color: black;
+    position: relative;
+    top: -5px;
+    border: solid #303030 1px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.30);
+}
+
+input {
+    border: solid #202020 1px;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.20);
+}
+
+voltar {
+    border-radius: 10px;
+}
