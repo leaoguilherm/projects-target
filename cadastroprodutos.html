@@ -16,21 +16,20 @@
         <h1>Cadastro de produtos:</h1>
     </header>
 
-    
     <p>Informe nos campos a seguir os dados do produto a ser cadastrado:</p>
 
     <form action="https://target-api-simples.cyclic.app/generica" method="post">
 
         <input type="text" name="produto" id="produto" placeholder="Nome do Produto">
 
-        <input type="number" name="preço" id="preço" placeholder="Preço em R$">
+        <input type="number" name="preco" id="preco" placeholder="Preço em R$">
 
         <hr>
 
         <input type="number" name="quantidade" id="quantidade" placeholder="Quantidade">
 
-        <select name="categoria" id="categoria">
-            <option value="semcategoria">Selecione a categoria</option>
+        <select required name="categoria" id="categoria">
+            <option value="" selected hidden>Selecione a categoria</option>
             <option value="frutas">Frutas</option>
             <option value="verduras">Verduras</option>
             <option value="doces">Doces</option>
