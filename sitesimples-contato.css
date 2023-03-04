@@ -1,0 +1,40 @@
+form {
+    width: 80%;
+    margin: auto;
+}
+
+
+form input {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+form textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+form button:hover {
+    color: black;
+    background-color: #c2c2c2;
+    box-shadow: -2px 4px 10px 1px black;
+}
